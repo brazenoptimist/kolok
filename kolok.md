@@ -118,7 +118,7 @@ A7. $|a| = |b| \Rightarrow a = b$ или $a = -b$
 
 A8. $|a| \neq |b| \Rightarrow a \neq b$ и $a \neq -b$
 
-A9. $|a| \geq |b| \Rightarrow a \geq b$ или $a \leq -b
+A9. $|a| \geq |b| \Rightarrow a \geq b$ или $a \leq -b$
 
 ---
 
