@@ -475,3 +475,4 @@ $$\lim_{n \to \infty} y_n = a$$
 
 Пусть $x_n$ - монотонная неубывающая последовательность. Пусть $x_n \to a$. Тогда $a \geqslant x_n \forall n \in \mathbb{N}$. Тогда $a \geqslant \lim_{n \to \infty} x_n = sup x_n$.
 
+Справедлива для строгих неравенств.
