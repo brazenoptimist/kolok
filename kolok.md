@@ -439,11 +439,26 @@ $$x_n = \frac{1}{n^2}$$
 
 $z_n$ = $\frac{n}{n^2+1}$
 
-$z_n$ = $\frac{1}{n+1} > 0 = x_n, $\forall x_n \in \mathbb{N}$. 
+$z_n$ = $\frac{1}{n+1} > 0 = x_n, \forall x_n \in \mathbb{N}$. 
 С другой стороны $z_n \leqslant x_n$.
 
 $$z_n = \frac{n}{n^2+1} < \frac{n}{n^2} = \frac{1}{n} =  y_n$$
 
 То есть, имеем: $0 < \frac{n}{n^2+1} < \frac{1}{n}$ и из этого следует, что $\lim_{n \to \infty} z_n = 0 < \lim_{n \to \infty} x_n = \lim_{n \to \infty} y_n$.
 
-![](Снимок%20экрана%202022-11-24%20в%2018.05.24.png)
+![](image.png)
+
+---
+
+### <a name="Parag14"></a> 14. Сформулируйте теорему "о двух милиционерах". Справедлива ли она для строгих неравенств?
+
+---
+
+***Теорема "о двух милиционерах"***
+
+Если два миллиционера $x_n$ и $z_n$ идут в милицейский участок $a$: $x_n \to a$ и $z_n \to a$, то $\lim_{n \to \infty} x_n = \lim_{n \to \infty} z_n = a$, то оказавшийся между ними Даня $x_n \leqslant y_n \leqslant z_n$:
+
+$$\lim_{n \to \infty} y_n = a$$
+
+
+
