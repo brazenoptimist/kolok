@@ -431,12 +431,19 @@ $$x_n = \frac{1}{n^2}$$
 
 ***Теорема о предельном переходе в неравенствах***
 
-Если последовательности ${x_n}$,$y_n$ связаны неравенством вида $x_n \leqslant y_n$, то $\lim_{n \to \infty} x_n \leqslant \lim_{n \to \infty} y_n$.
+Если последовательности $x_n$,$y_n$ связаны неравенством вида $x_n \leqslant y_n$, то $\lim_{n \to \infty} x_n \leqslant \lim_{n \to \infty} y_n$.
 
 Справедлива для строгих неравенств.
 
 Пример: 
 
-{$z_n$} = {$\frac{n}{n^2+1}$}
+$z_n$ = $\frac{n}{n^2+1}$
 
-$z_n$ = $\frac{1}{n+1} > 0 = x_n, \$
+$z_n$ = $\frac{1}{n+1} > 0 = x_n, $\forall x_n \in \mathbb{N}$. 
+С другой стороны $z_n \leqslant x_n$.
+
+$$z_n = \frac{n}{n^2+1} < \frac{n}{n^2} = \frac{1}{n} =  y_n$$
+
+То есть, имеем: $0 < \frac{n}{n^2+1} < \frac{1}{n}$ и из этого следует, что $\lim_{n \to \infty} z_n = 0 < \lim_{n \to \infty} x_n = \lim_{n \to \infty} y_n$.
+
+![](Снимок%20экрана%202022-11-24%20в%2018.05.24.png)
